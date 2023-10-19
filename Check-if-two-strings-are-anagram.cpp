@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 bool areAnagram(const string &s1,const string &s2){
     if(s1.length()!=s2.length()){
         return false;
