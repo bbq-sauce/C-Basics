@@ -1,7 +1,6 @@
 // C++ program to implement iterative Binary Search
 #include <bits/stdc++.h>
 using namespace std;
-
 // A iterative binary search function. It returns
 // location of x in given array arr[l..r] if present,
 // otherwise -1
