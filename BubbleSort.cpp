@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 int binsearch(int arr[],int n){
   
   int i,j;
