@@ -13,6 +13,4 @@ int main() {
   std::cerr << "An error occurred";
   std::clog << "An error occurred";
 
-
-  
 }
