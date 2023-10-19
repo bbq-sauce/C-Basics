@@ -75,6 +75,5 @@ int main() {
     cout << "Minimum: " << stack.getMin() << endl; // Output: Minimum: 1
     cout << "Maximum: " << stack.getMax() << endl; // Output: Maximum: 5
     
-
     return 0;
 }
