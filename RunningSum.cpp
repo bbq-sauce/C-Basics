@@ -12,9 +12,6 @@ void runningsum(int arr[],int n)
         arr[i]=temp+arr[i];
         temp = arr[i];
     }
-    
-    
-    
 }
 
 int main()
