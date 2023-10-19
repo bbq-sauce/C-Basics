@@ -15,6 +15,7 @@ void printArray(int arr[],int size){
   cout<<endl;
 }
 
+
 // function to find the partition point to rearrange array
 int partition(int arr[], int l, int h){
   int pivot = arr[h]; //we select lasst elemtn as pivot point
