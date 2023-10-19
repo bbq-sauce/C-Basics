@@ -1,14 +1,9 @@
-
 #include <stdio.h>
 
 void pointer()
 {
 	int var = 20;
-
-
 	int* ptr;
-
-	
 	ptr = &var;
 
 	printf("Value at ptr = %p \n", ptr);
