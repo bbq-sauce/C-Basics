@@ -10,6 +10,7 @@ int Linearsearch(int arr[],int x,int n){
   return -1;
   }
 
+
 int main() {
   int arr[]={1,2,3,4,5};
   int x= 4;
