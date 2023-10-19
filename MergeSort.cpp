@@ -1,10 +1,11 @@
-// Merge sort in C++
+
 
 #include <iostream>
 using namespace std;
 
 // Merge two subarrays L and M into arr
 void merge(int arr[], int p, int q, int r) {
+
   
   // Create L ← A[p..q] and M ← A[q+1..r]
   int n1 = q - p + 1;
@@ -65,14 +66,13 @@ void mergeSort(int arr[], int l, int r) {
   }
 }
 
-// Print the array
+
 void printArray(int arr[], int size) {
   for (int i = 0; i < size; i++)
     cout << arr[i] << " ";
   cout << endl;
 }
 
-// Driver program
 int main() {
   int arr[] = {6, 5, 12, 10, 9, 1};
   int size = sizeof(arr) / sizeof(arr[0]);
